@@ -23,8 +23,6 @@ namespace Domaindb.Repositories
             return _studentContext.Set<T>().ToList();
 
         }
-
-
         public void Update(T obj)
         {
             _studentContext.Update(obj);

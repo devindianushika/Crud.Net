@@ -24,9 +24,7 @@ namespace CrudApp.Controllers
                 public IActionResult CreateStudents(Student student)
         {
             _istudent.CreateNewStudent(student);
-            return Ok("Data saved successfully");
-
-
+            return Ok("Your data is saved successfully");            
         }
 
         [HttpGet]

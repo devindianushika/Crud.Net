@@ -11,5 +11,6 @@ namespace CrudApp.Controllers
     [ApiController]
     public class ClassroomController : ControllerBase
     {
+
     }
 }
